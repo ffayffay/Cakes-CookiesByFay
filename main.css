@@ -1,0 +1,80 @@
+body {
+	text-align: center;
+	color: #F13B57;
+}
+
+.site-wrap {
+	background-color: #fcd9de;
+}
+
+.title {
+	color: #F13B57;
+}
+
+.navbar {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+
+.button {
+	background-color: #F13B57;
+	color: #fcd9de;
+	margin: 2px;
+}
+
+.nav-item-wrap {
+	display: flex;
+}
+
+.navbar-brand {
+	padding: 15px;
+}
+
+.menuWrap {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+ul {
+	list-style-type: none;
+	padding: 5px;
+}
+
+.flavor-title {
+	padding: 25px;
+}
+
+.description-wrap {
+	font-size: small;
+    padding: 10px;
+    font-style: italic;
+}
+
+span {
+	font-size: small;
+	font-style: italic;
+}
+
+.cake-section,
+.cookie-section {
+	padding-top: 100px;
+}
+
+/*----------MEDIA QUERIES-----------------------------------------------------*/
+
+@media (min-width: 1020px) {
+	.navbar {
+		justify-content: space-between;
+	}
+
+	.menuWrap {
+		flex-direction: row;
+	}
+
+	.flavorCont {
+		min-width: 50vw;
+	}
+}
