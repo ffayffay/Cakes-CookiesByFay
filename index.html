@@ -11,26 +11,42 @@
 <body>
 	<div class="site-wrap">
 <!-- ==================== HEADER AND NAV ======================< -->
-		<header>
+		<header class="sticky">
 			<nav class="navbar">
 				<div class="navbar-brand">
 					<i class="fas fa-cookie-bite fa-3x"></i>
 				</div>
 				<div class="nav-item-wrap">
-					<a href="" class="navbar-item button">About</a>
-			  		<a href="" class="navbar-item button">Menu</a>
-			  		<a href="" class="navbar-item button">Contact</a>
+					<a href="#about" class="navbar-item button">About</a>
+			  		<a href="#menu" class="navbar-item button">Menu</a>
+			  		<a href="#contact" class="navbar-item button">Contact</a>
 				</div>
 			</nav>
 		</header>
+
+<!-- ==================== ABOUT =========================== -->
+		<div id="about" class="about-sec-wrap">
+			<h1 class="title">A little about me...</h1>
+			<p class="about-text-wrap">
+				I've had a strong interest and love of baking since being a child. I started my bakery career at the age of 17 working at a local neighborhood bakery. I quickly took interest in decorating cookies whenever I had any down time. The owner took notice of my interest and talent and started teaching me to decorate cakes. The bakery soon hired a new cake decorator with decades of experience and she took me under her wing and I owe much of what I know to her sharing her knowledge with me. I enjoyed 7 years at this bakery but eventually moved on, had a handful of non bakery jobs but soon found myself craving to once again be decorating. I found a job in Louisville at a similar traditionally bakery and got the opportunity to further grow my cookie decorating skills. I spent 3 years there in charge of the cookie decorating portion of the bakery and in that time have decorated tens of thousands of cookies. I have enjoyed most of the time I've worked for others at these public bakeries but I've also seen a lot that I don't approve of and because of this I am very passionate about making cakes, cookies, and other baked goods from scratch with quality ingredients! I love being apart of making people happy and furthering to add to the enjoyment of birthdays, weddings, and other special occasions. It's this that brings me to where I am now in life and my career and why I hope you give me the opportunity to add to your special occasion.
+			</p>
+		</div>
 <!-- ==================== CAKE MENU ======================< -->
-		<div class="cake-section">
-			<h1 class="title">Cake Flavors</h1>
+		<div id="menu" class="cake-section">
+			<div class="underline">
+				<h1 class="title">Cake Flavors</h1>
+			</div>
+			<span>
+				***All cakes come with decorative border, option of message, roses, or other simple decoration.<br>
+				All other decorations will be an aditional price depending on complexity.
+			</span>
 			<div class="menuWrap columns"></div>
 		</div>
 <!-- ==================== COOKIE MENU ======================< -->
 		<div class="cookie-section">
-			<h1 class="title">Decorated Cookies</h1>
+			<div class="underline">
+				<h1 class="title">Decorated Cookies</h1>
+			</div>
 			<div class="menuWrap columns">
 				<div class="column flavorCont">
 					<div class="flavor-title">
@@ -65,16 +81,39 @@
 		</div>
 
 <!-- ==================== CONTACT ======================< -->
-		<div class="card">
+		<div id="contact" class="card">
 		  <div class="card-content">
-		  	<p>Email me at- cakescookiesbyfay@gmail.com</p>
-
-		    <div class="content">
+		  	<p>
+		  		<span class="bold title is-5 black">
+		  		To place an order please send me an Email at 
+		  		<a class="email" href="mailto:cakescookiesbyfay@gmail.com"> cakescookiesbyfay@gmail.com</a>
+		  		<br>
+		  		<br>
+		  		Be sure to include:
+		  		</span>
+		  			<ul>
+		  				<li>Date of order</li>
+		  				<li>How many people your serving</li>
+		  				<li>Would you like a cake, cookies, or both?</li>
+		  				<li>A brief description of decorations your interested in</li>
+		  			</ul>
+		  	</p>
+		  </div>
+		</div>
+		  	
+<!-- ========================== FOOTER ======================== -->
+		<footer class="footer">
+		  <div class="content has-text-centered">
+		     <div class="content links-wrap">
+		    	<p>
+		    		Email me at- 
+		    		<a class="email" href="mailto:cakescookiesbyfay@gmail.com"> cakescookiesbyfay@gmail.com</a>
+		    	</p>
 		     	<a target="_blank" title="follow me on facebook" href="https://www.facebook.com/fay.coomer"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a>
 			    <a target="_blank" title="follow me on instagram" href="https://www.instagram.com/buttercreamboredom"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a>
 		    </div>
 		  </div>
-		</div>
+		</footer>
 		
 	</div>
 

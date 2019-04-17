@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	color: #F13B57;
+	height: 100vh
 }
 
 .site-wrap {
@@ -11,11 +12,21 @@ body {
 	color: #F13B57;
 }
 
+header {
+	margin-bottom: 100px;
+}
+
 .navbar {
 	display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .button {
@@ -30,6 +41,18 @@ body {
 
 .navbar-brand {
 	padding: 15px;
+}
+
+.about-sec-wrap {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.about-text-wrap {
+	margin: 50px;
 }
 
 .menuWrap {
@@ -58,11 +81,32 @@ span {
 	font-style: italic;
 }
 
+.underline {
+	border-bottom: 1px dotted #F13B57;
+}
+
 .cake-section,
 .cookie-section {
 	padding-top: 100px;
+	padding-bottom: 25px;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.black {
+	color: black;
+}
+
+.email:link {
+	color: #d8354e;
+}
+
+.footer {
+	background-color: #3b3b3b;
+	color: whitesmoke;
+}
 /*----------MEDIA QUERIES-----------------------------------------------------*/
 
 @media (min-width: 1020px) {
