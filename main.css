@@ -43,18 +43,6 @@ header {
 	padding: 15px;
 }
 
-.about-sec-wrap {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 150px;
-}
-
-.about-text-wrap {
-	margin: 50px;
-}
-
 .menuWrap {
 	display: flex;
 	flex-wrap: wrap;
@@ -85,7 +73,10 @@ span {
 	border-bottom: 1px dotted #F13B57;
 }
 
-.cake-section,
+.cake-section {
+	padding-top: 250px;
+}
+
 .cookie-section {
 	padding-top: 100px;
 	padding-bottom: 25px;
